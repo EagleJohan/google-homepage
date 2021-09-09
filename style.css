@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vw;
+    width: 100vw;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 15px 15px;
+    color: black;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+
+}
+
+nav ul li a:visited {
+    color: black;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#sign-in {
+    background-color: rgb(26, 115, 232);
+    border: none;
+    padding: 10px 16px;
+    color: white;
+    font-size: 1.125rem;
+    border-radius: 5px;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    padding-top: 150px;
+}
+
+#search-bar {
+    position: relative;
+    margin: 0 auto;
+    max-width: 500px;
+    height: 40px;
+}
+
+#search-bar input {
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid gray
+}
+
+#search {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#keyboard {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
